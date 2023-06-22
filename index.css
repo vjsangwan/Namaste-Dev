@@ -1,0 +1,54 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid rgb(130, 123, 123)
+}
+
+.logo{
+    width:120px;
+}
+.nav-items{
+    padding: 0px 20px;
+}
+
+.nav-items>ul{
+    display:flex;
+    color: rgb(81, 67, 67);
+    list-style-type: none ;
+    font: size 24px;
+}  
+
+.nav-items>ul>li{
+    padding:10px;
+    margin:10px;
+}
+.res-container{
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+.res-card{
+    margin: 5px;
+    padding:5px;
+    width: 180px;
+    height:320px;
+}
+.search{
+    padding:10px;
+    border:1px;
+}
+.res-img{
+    width:100%;
+    Height:40%;
+    
+}
+
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.fltr-btn{
+    cursor:pointer;
+    margin:10px;
+}
